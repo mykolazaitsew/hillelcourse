@@ -338,29 +338,54 @@
         padding: 12px 37px;
     }
     .info{
-        background: url(img/BlackRectangle.png) no-repeat;
+        background: url(img/BlackRectangle.png);
     }
+   
     .info__logo{
         font-weight: 800px;
         font-size: 18px;
         line-height: 21px;
         color: #FBFBFC;
+        justify-content: center;
     }
     .privacy__police{
         justify-content: center;
-        gap: 28px;
         font-weight: 400px;
         font-size: 18px;
         line-height: 28px;
         color: #6D6D77;
+        gap: 28px;
     }
-    .info__block{
-        display: block;
-    }
-   
-
+    .info__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .sitemap__list {
+        align-items: center;
+        list-style: none; 
+        padding: 0px; 
+        margin: 0px;
+        flex-direction: column;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #EFEFF2;
+        
+      }
+      
+      .sitemap__title {
+        font-weight: 600px;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        list-style: none; 
+        padding: 0px; 
+        margin: 0px;
+        flex-direction: column;
+        
+      }
 
     
-
-
-
+    
